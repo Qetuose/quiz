@@ -78,6 +78,7 @@ export default function App() {
     (prev, cur) => prev + cur.points,
     0
   );
+  console.log("aa");
 
   useEffect(() => {
     fetch("http://localhost:8000/questions")
